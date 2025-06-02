@@ -5,6 +5,6 @@ for _ in range(N):
     tup.append((name, int(score)))
 sorttup = sorted(tup,key = lambda x:x[1])
 
-#print(sorttup)
+#print(sorttup) 튜플 해당 값만 출력하는 방법
 for i in sorttup:
     print(i[0], end=' ')
